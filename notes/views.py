@@ -17,6 +17,7 @@ class NotesListView(ListView):
 class NotesDetailView(DetailView):
     model = Notes
     context_object_name = "note"
+    template_name = "notes/notes_detail.html"
 
 # def detail(request, pk):
 #     try:
